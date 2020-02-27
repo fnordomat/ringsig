@@ -1,0 +1,16 @@
+[package]
+name = "ringsig"
+version = "0.0.1"
+authors = ["fnordomat <46D46D1246803312401472B5A7427E237B7908CA>"]
+edition = "2018"
+
+[dependencies]
+openssl      = "0.10.28"
+json         = "0.12.1"
+clap         = "2.33.0"
+rand         = "0.7.3"
+rand_os      = "0.2.2"
+base64       = "0.11.0"
+ansi_term    = "0.11.0"
+ansi_colours = "1.0.1"
+lazy_static  = "1.4.0"
